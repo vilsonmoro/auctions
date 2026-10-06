@@ -1,0 +1,6 @@
+mas english_A {
+    agent auctioneer: auctioneer.asl
+    agent buyer1: buyer.asl { beliefs: max_price(100) }
+    agent buyer2: buyer.asl { beliefs: max_price(130) }
+    agent buyer3: buyer.asl { beliefs: max_price(160) }
+}
